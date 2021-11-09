@@ -1,0 +1,52 @@
+{
+  "name": "car-sharing",
+  "version": "1.0.0",
+  "description": "Basic page to calculate gas cost distribution based on kms driven.\"",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --profile",
+    "dev": "npx webpack serve",
+    "start": "npm run build && npm run dev"
+  },
+  "author": "Ralph Kok",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-transform-runtime": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "@types/react": "^17.0.34",
+    "@types/react-dom": "^17.0.11",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "copy-webpack-plugin": "^9.0.1",
+    "css-loader": "^6.5.1",
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "node-sass": "^6.0.1",
+    "postcss-loader": "^6.2.0",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "svg-url-loader": "^7.1.1",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "rxjs": "^7.4.0"
+  }
+}

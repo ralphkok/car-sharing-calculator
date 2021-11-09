@@ -1,0 +1,35 @@
+@import "../../globals.scss";
+
+.footer {
+  width: 100%;
+  padding: 0.5em 1em;
+  box-sizing: border-box;
+  border-top: 1px solid $dark-blue;
+  border-bottom: 1px solid $dark-blue;
+  @include flex-column;
+  background-color: #d9d9ff;
+  color: $dark-blue;
+
+  h3 {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .amounts {
+    width: 100%;
+    padding: 0.5em 1em;
+    @include flex-row;
+
+    .amount {
+      width: 100%;
+      text-align: center;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    .direction {
+      
+    }
+  }
+}
